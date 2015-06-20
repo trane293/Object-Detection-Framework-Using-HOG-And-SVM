@@ -1,7 +1,9 @@
 # Object Detection Framework Using HOG And SVM
 ##AUTHOR - Anmol Sharma
-			#Description of Files and Folders
---------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+#Description of Files and Folders
+
 
         genfiles - FOLDER - Will contain SVM models that are trained on different training sets
 		    specified by the naming scheme of different folders in which they 
@@ -59,8 +61,8 @@
 
 Open terminal. 
 Write:
-           --> chmod +x <name_of_build_file>
-			example: chmod +x buildcode_main.sh
-           --> ./buildcode_main.sh
+        chmod +x <name_of_build_file>
+		example: chmod +x buildcode_main.sh
+        ./buildcode_main.sh
 ------------------------
         
