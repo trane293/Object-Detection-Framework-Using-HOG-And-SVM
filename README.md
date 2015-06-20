@@ -1,4 +1,4 @@
-# Object Detection Framework Using HOG And SVM
+# An Object Detection Framework Using HOG And SVM
 ##AUTHOR - Anmol Sharma
 
 -------------------------------------------------------------------------------------
