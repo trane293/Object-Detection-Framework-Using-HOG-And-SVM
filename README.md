@@ -61,7 +61,7 @@
 
 Open terminal. 
 Write:
-        chmod +x <name_of_build_file>
-		example: chmod +x buildcode_main.sh
- 	./buildcode_main.sh
+        chmod +x <name_of_build_file> <br />
+		example: chmod +x buildcode_main.sh<br />
+ 	./buildcode_main.sh<br />
         
