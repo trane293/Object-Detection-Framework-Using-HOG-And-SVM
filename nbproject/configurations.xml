@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>/home/dahoc/projects/openCVHogTrainer/svmlight/kernel.h</itemPath>
+      <itemPath>libsvm/libsvm.h</itemPath>
+      <itemPath>libsvm/svm.h</itemPath>
+      <itemPath>/home/dahoc/projects/openCVHogTrainer/svmlight/svm_common.h</itemPath>
+      <itemPath>/home/dahoc/projects/openCVHogTrainer/svmlight/svm_learn.h</itemPath>
+      <itemPath>/home/dahoc/projects/openCVHogTrainer/svmlight/svmlight.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="genfiles" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="libsvm" displayName="libsvm" projectFiles="true">
+        <itemPath>libsvm/svm.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="svmlight" displayName="svmlight" projectFiles="true">
+        <itemPath>/home/dahoc/projects/openCVHogTrainer/svmlight/svm_common.c</itemPath>
+        <itemPath>/home/dahoc/projects/openCVHogTrainer/svmlight/svm_hideo.c</itemPath>
+        <itemPath>/home/dahoc/projects/openCVHogTrainer/svmlight/svm_learn.c</itemPath>
+      </logicalFolder>
+      <itemPath>Readme.md</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>/home/dahoc/projects/openCVHogTrainer/svmlight</Elem>
+    <Elem>libsvm</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandLine>`pkg-config --cflags opencv`</commandLine>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </ccTool>
+        <linkerTool>
+          <output>opencvhogtrainer</output>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs opencv`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/kernel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_common.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_common.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_hideo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_learn.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_learn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svmlight.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libsvm/libsvm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libsvm/svm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libsvm/svm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>/usr/local/include/opencv2</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>opencv_calib3d</linkerLibLibItem>
+            <linkerLibLibItem>opencv_contrib</linkerLibLibItem>
+            <linkerLibLibItem>opencv_core</linkerLibLibItem>
+            <linkerLibLibItem>opencv_features2d</linkerLibLibItem>
+            <linkerLibLibItem>opencv_flann</linkerLibLibItem>
+            <linkerLibLibItem>opencv_gpu</linkerLibLibItem>
+            <linkerLibLibItem>opencv_highgui</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgproc</linkerLibLibItem>
+            <linkerLibLibItem>opencv_legacy</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ml</linkerLibLibItem>
+            <linkerLibLibItem>opencv_objdetect</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ts</linkerLibLibItem>
+            <linkerLibLibItem>opencv_video</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/kernel.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_common.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_common.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_hideo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_learn.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svm_learn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/dahoc/projects/openCVHogTrainer/svmlight/svmlight.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Readme.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libsvm/libsvm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libsvm/svm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libsvm/svm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
