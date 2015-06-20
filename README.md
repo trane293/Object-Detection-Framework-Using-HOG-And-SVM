@@ -63,6 +63,5 @@ Open terminal.
 Write:
         chmod +x <name_of_build_file>
 		example: chmod +x buildcode_main.sh
-        (dot)(slash)buildcode_main.sh
-------------------------
+ 	./buildcode_main.sh
         
